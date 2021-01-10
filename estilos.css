@@ -1,0 +1,24 @@
+body{
+    background-color: #000000;
+}
+/*Elemento NAV*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li, nav a{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    
+}
