@@ -1,5 +1,8 @@
 body{
     background-color: #000000;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 600;
 }
 /*Elemento NAV*/
 nav{
@@ -21,4 +24,22 @@ nav ul li, nav a{
     font-weight: 900;
     font-size: 20px;
     
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 100%;
+    grid-column-gap: 20px;
+}
+.item{
+    height: min-content;
+}
+/*Se ataca el tamaño de la imagen dentro de item que es hijo de container*/
+.item img{
+    width: 100%;
+}
+
+.iframe{
+    width: 100%;
+    height: min-content;
 }
